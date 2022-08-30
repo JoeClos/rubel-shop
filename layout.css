@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
 html {
   font-size: 62.5%;
 }
@@ -19,10 +21,14 @@ nav {
   padding: 5rem;
 }
 .nav-description {
-  font-size: 3.2rem;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 6rem;
 }
+
+
 .nav-description-italic {
-  font-size: 2.6rem;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 3rem;
   font-style: italic;
   text-align: center;
 }
@@ -91,9 +97,11 @@ nav {
   text-decoration: none;
 }
 
+
 .container a:hover .nav-buttons {
   background-color: black;
   color: #ff8b15;
+
 }
 
 input {
