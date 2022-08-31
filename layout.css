@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 html {
   font-size: 62.5%;
@@ -19,29 +20,69 @@ nav {
   /* background-attachment: fixed;  */
   background-size: cover;
   padding: 5rem;
+  margin-top: 14.9rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ff8b15;
+  /* padding: 3px; */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+ 
+.navbar li {
+  margin: 15px;
+}
+.user-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  color: wheat;
+  font-size: 2rem;
+  margin: 4rem;
 }
 .nav-description {
   font-family: 'Qwitcher Grypen', cursive;
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
-
+.shop-title {
+  background-color: #ff8b15;
+  /* color: white; */
+  opacity: 0.7;
+  border-radius: 5rem 0 5rem 0;
+  margin: 5px 35rem;
+}
 .nav-description-italic {
   font-family: 'Qwitcher Grypen', cursive;
-  font-size: 3rem;
+  font-size: 5rem;
   font-style: italic;
   text-align: center;
 }
 .nav-buttons {
+  
   text-align: center;
   background-color: #ff8b15;
-  opacity: 0.8;
+  color: black;
+  font-weight: bold;
+  /* opacity: 0.8; */
 
   padding: 2rem;
   border-radius: 50%;
   margin: 1rem;
-  width: 40px;
+  width: 4  0px;
   height: 40px;
+}
+
+.nav-buttons:hover {
+  transform: scale(1.25);
 }
 
 .nav-description {
@@ -49,9 +90,16 @@ nav {
   padding: 1rem;
   margin: 5px;
 }
+
+.logo-img {
+  border: 1ps solid black; 
+  padding: 2rem;
+  
+}
 .logo {
+ 
   border-radius: 50%;
-  max-width: 10%;
+  max-width: 20%;
   padding: 1rem;
   width: 100%;
   height: auto;
@@ -70,16 +118,22 @@ nav {
 }
 
 .product-title {
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
     font-size: 2.8rem;
   text-align: center;
   margin-top: 10rem;
 }
 .our-story-title {
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
     font-size: 2.8rem;
   text-align: center;
   /* margin-top: 10rem; */
 }
 .testimonial-title {
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
     font-size: 2.8rem;
   text-align: center;
   /* margin-top: 10rem; */
@@ -151,4 +205,16 @@ button {
 footer p {
   text-align: center;
   color: white;
+  font-size: 1.8rem;
+}
+
+.social-media {
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 75% 75% 0 0;
+}
+.social-media a{
+  
+  color: white;
+  
 }
