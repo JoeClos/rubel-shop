@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rubel's Shop</title>
   <link rel="stylesheet" href="layout.css" />
-  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -21,8 +21,8 @@
   <div class="navbar">
     <div class="logo-img"><img class="logo" src="./images/logo-s.jpg" alt="" /></div>
     <ul class="user-cart">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
+      <input class="first-search" type="text" placeholder="Search" name="search">
+      <button class="first-search btn" type="submit"><i class="fa fa-search"></i></button>
       <div class="search-container">
       </div>
       <li><i class="fa-solid fa-user"></i></li>
@@ -59,27 +59,47 @@
   </form>
   <section class="images">
 
-
+    
 
     <div class="card">
       <img src="https://source.unsplash.com/300x150/?night,lights" alt="Avatar" style="width:100%">
+      <i class="fa-sharp fa-solid fa-heart"></i>
       <div class="card-content">
         <h4>Product's name</h4>
         <p>Product's description</p>
+        <p>Price: 50 &euro;</p>
+        <a href="#">
+          <p class="cart-button" >Add to cart</p>
+        </a>
+        
+      </div>
       </div>
     </div>
     <div class="card">
       <img src="https://source.unsplash.com/300x150/?night,lights" alt="Avatar" style="width:100%">
+      <i class="fa-sharp fa-solid fa-heart"></i>
       <div class="card-content">
         <h4>Product's name</h4>
         <p>Product's description</p>
+        <p>Price: 50 &euro;</p>
+        <a href="#">
+          <p class="cart-button" >Add to cart</p>
+        </a>
+        
       </div>
     </div>
     <div class="card">
       <img src="https://source.unsplash.com/300x150/?night,lights" alt="Avatar" style="width:100%">
+      <i class="fa-sharp fa-solid fa-heart"></i>
       <div class="card-content">
         <h4>Product's name</h4>
         <p>Product's description</p>
+        <p>Price: 50 &euro;</p>
+        <a href="#">
+          <p class="cart-button" >Add to cart</p>
+        </a>
+        
+      </div>
       </div>
     </div>
     <!-- <figure>
@@ -97,26 +117,28 @@
   <main class="content">
 
     <div class="main-page">
-
+      <div class="bg-yellow"></div>
       <hr>
-      <h2 id="our-story" class="our-story-title">Our story</h2>
-      <p class="align-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, sint
-        saepe! Neque aliquid in exercitationem voluptatem, perspiciatis hic
-        laborum minus quia, impedit atque ullam eos provident quibusdam minima
-        consectetur eius. Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Sequi odio veritatis eos temporibus nisi voluptates, nulla
-        consectetur saepe. Totam, eum perspiciatis! Sunt amet recusandae
-        possimus consequuntur quae eos, quaerat totam.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, sint
-        saepe! Neque aliquid in exercitationem voluptatem, perspiciatis hic
-        laborum minus quia, impedit atque ullam eos provident quibusdam minima
-        consectetur eius. Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Sequi odio veritatis eos temporibus nisi voluptates, nulla
-        consectetur saepe. Totam, eum perspiciatis! Sunt amet recusandae
-        possimus consequuntur quae eos, quaerat totam.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      </p>
+      
+        <h2 id="our-story" class="our-story-title">Our story</h2>
+        <p class="align-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, sint
+          saepe! Neque aliquid in exercitationem voluptatem, perspiciatis hic
+          laborum minus quia, impedit atque ullam eos provident quibusdam minima
+          consectetur eius. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Sequi odio veritatis eos temporibus nisi voluptates, nulla
+          consectetur saepe. Totam, eum perspiciatis! Sunt amet recusandae
+          possimus consequuntur quae eos, quaerat totam.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, sint
+          saepe! Neque aliquid in exercitationem voluptatem, perspiciatis hic
+          laborum minus quia, impedit atque ullam eos provident quibusdam minima
+          consectetur eius. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Sequi odio veritatis eos temporibus nisi voluptates, nulla
+          consectetur saepe. Totam, eum perspiciatis! Sunt amet recusandae
+          possimus consequuntur quae eos, quaerat totam.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+      </div>
       <hr>
       <h2 id="reviews" class="testimonial-title">Testimonials</h2>
       <p class="align-content">
@@ -142,6 +164,12 @@
       <p>&copy; Josephine Closan - 2022. All Rights Reserved.</p>
     </div>
   </footer>
+
+  
+  <script>
+    
+    
+  </script>
 </body>
 
 </html>
