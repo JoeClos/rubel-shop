@@ -17,9 +17,10 @@ nav {
     border-radius: 0 50px; */
   background-image: url("images/bg.jpg");
   background-repeat: no-repeat;
+  background-position: center center;
   /* background-attachment: fixed;  */
   background-size: cover;
-  padding: 5rem;
+  padding: 12rem;
   margin-top: 14.9rem;
 }
 
@@ -239,3 +240,9 @@ footer p {
   color: white;
 }
 
+.link {
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #df500a;
+}
